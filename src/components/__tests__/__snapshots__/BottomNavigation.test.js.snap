@@ -26,8 +26,10 @@ exports[`renders custom icon and label in non-shifting bottom navigation 1`] = `
     }
   >
     <AnimatedComponent
+      collapsable={false}
       key="key-0"
       pointerEvents="auto"
+      removeClippedSubviews={false}
       style={
         Array [
           Object {
@@ -48,7 +50,20 @@ exports[`renders custom icon and label in non-shifting bottom navigation 1`] = `
         ]
       }
     >
-      Route: 0
+      <AnimatedComponent
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "top": 0,
+            },
+          ]
+        }
+      >
+        Route: 0
+      </AnimatedComponent>
     </AnimatedComponent>
   </View>
   <AnimatedComponent
@@ -590,8 +605,10 @@ exports[`renders custom icon and label in shifting bottom navigation 1`] = `
     }
   >
     <AnimatedComponent
+      collapsable={false}
       key="key-0"
       pointerEvents="auto"
+      removeClippedSubviews={false}
       style={
         Array [
           Object {
@@ -612,7 +629,20 @@ exports[`renders custom icon and label in shifting bottom navigation 1`] = `
         ]
       }
     >
-      Route: 0
+      <AnimatedComponent
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "top": 0,
+            },
+          ]
+        }
+      >
+        Route: 0
+      </AnimatedComponent>
     </AnimatedComponent>
   </View>
   <AnimatedComponent
@@ -1268,8 +1298,10 @@ exports[`renders non-shifting bottom navigation 1`] = `
     }
   >
     <AnimatedComponent
+      collapsable={false}
       key="key-0"
       pointerEvents="auto"
+      removeClippedSubviews={false}
       style={
         Array [
           Object {
@@ -1290,7 +1322,20 @@ exports[`renders non-shifting bottom navigation 1`] = `
         ]
       }
     >
-      Route: 0
+      <AnimatedComponent
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "top": 0,
+            },
+          ]
+        }
+      >
+        Route: 0
+      </AnimatedComponent>
     </AnimatedComponent>
   </View>
   <AnimatedComponent
@@ -1940,8 +1985,10 @@ exports[`renders shifting bottom navigation 1`] = `
     }
   >
     <AnimatedComponent
+      collapsable={false}
       key="key-0"
       pointerEvents="auto"
+      removeClippedSubviews={false}
       style={
         Array [
           Object {
@@ -1962,7 +2009,20 @@ exports[`renders shifting bottom navigation 1`] = `
         ]
       }
     >
-      Route: 0
+      <AnimatedComponent
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "top": 0,
+            },
+          ]
+        }
+      >
+        Route: 0
+      </AnimatedComponent>
     </AnimatedComponent>
   </View>
   <AnimatedComponent
